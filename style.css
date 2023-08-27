@@ -1,0 +1,325 @@
+:root{
+    --width: 70vw;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 1000px;
+}
+img[alt="background"]{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: inherit;
+    z-index: -100;
+    object-fit: cover;
+    
+
+}
+
+.about{
+    width: 70vw;
+    height: 80vh;
+    margin-bottom: 200px;
+}
+
+
+.header-flex{
+    width: 100%;
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 250px;
+    
+}
+
+.links{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.links  li{
+    list-style: none;
+}
+
+li > a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.text-body{
+    width: 800px;
+    height: 300px;
+    border: 2px solid white;
+}
+.text-body >p{
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 80px;
+    margin-top: 30px;
+    padding: 10px;
+}
+
+.section-2{
+    width: 70vw;
+    height: 80vh;
+}
+
+
+img[alt="vr-image"]{
+    z-index: -100;
+    width: 1000px;
+    object-fit:fill;
+}
+.vr-section{
+    display: flex;
+    position: relative;
+    
+}
+
+.img-text{
+    width: 60%;
+    height: 400px;
+    z-index: 200;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: auto;
+    align-self: flex-end;
+    position: relative;
+    right: 100px;
+    padding-left: 60px;
+    
+    
+}
+
+.img-text > p{
+    width: 700px;
+    
+   
+}
+
+p[title="header"]{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 60px;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    width: 500px;
+}
+
+p[title="body"]{
+    width: 500px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+}
+
+.creation-flex{
+    width: 70vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.creation-flex > p{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+.creation-flex > button{
+    width: 100px;
+    height: 35px;
+    font-weight: bold;
+    margin-right: 20px;
+    
+}
+
+.section-3{
+    width: 70vw;
+    height: 80vh;
+}
+
+.creation-grid{
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    overflow: auto;
+    
+}
+
+.earth{
+    width: 310px;
+    height: 550px;
+    background-image: url(images/desktop/image-deep-earth.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+}
+.earth > p{
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+    width: 100px;
+    position: relative;
+    bottom: 50px;
+}
+.night{
+    width: 310px;
+    height: 550px;
+    background-image: url(images/desktop/image-night-arcade.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.night > p{
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+    width: 150px;
+    position: relative;
+    bottom: 50px;
+}
+.soccer{
+    width: 310px;
+    height: 550px;
+    background-image: url(images/desktop/image-soccer-team.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.soccer > p{
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+    width: 150px;
+    position: relative;
+    bottom: 50px;
+}
+.grid-img{
+    width: 310px;
+    height: 550px;
+    background-image: url(images/desktop/image-grid.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.grid-img > p{
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+    width: 150px;
+    position: relative;
+    bottom: 50px; 
+}
+
+.box-5{
+    width: 310px;
+    height: 550px;
+    background-image: url(images/desktop/image-from-above.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.box-5 > p{
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+    width: 150px;
+    position: relative;
+    bottom: 50px;
+}
+.box-6{
+    width: 310px;
+    height: 550px;
+    background-image: url(images/desktop/image-pocket-borealis.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.box-6 > p{
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+    width: 150px;
+    position: relative;
+    bottom: 50px;
+}
+.box-7{
+    width: 310px;
+    height: 550px;
+    background-image: url(images/desktop/image-curiosity.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.box-7 > p{
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+    width: 150px;
+    position: relative;
+    bottom: 50px;
+}
+.box-8{
+    width: 310px;
+    height: 550px;
+    background-image: url(images/desktop/image-fisheye.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.box-8 > p{
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+    width: 150px;
+    position: relative;
+    bottom: 50px;
+}
+
