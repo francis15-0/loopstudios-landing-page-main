@@ -12,7 +12,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 1000px;
+    padding-bottom: 500px;
 }
 img[alt="background"]{
     position: absolute;
@@ -152,6 +152,7 @@ p[title="body"]{
 .section-3{
     width: 70vw;
     height: 80vh;
+    
 }
 
 .creation-grid{
